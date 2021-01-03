@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="The Unlicense"
+
+[[mods]]
+    modId="printcraft"
+    version="${file.jarVersion}"
+    displayName="PrintCraft"
+    #updateJSONURL="http://myurl.me/" #optional
+    #displayURL="http://example.com/" #optional
+    #logoFile="examplemod.png" #optional
+    #credits="Thanks for this example mod goes to Java" #optional
+    #authors="Love, Cheese and small house plants" #optional
+    description='''
+    3D Printing mod by Vandracon
+    '''
+
+[[dependencies.printcraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.printcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
