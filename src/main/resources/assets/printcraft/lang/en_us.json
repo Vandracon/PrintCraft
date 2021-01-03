@@ -1,3 +1,6 @@
 {
-  "block.printcraft.printer_3d": "3D Printer"
+  "block.printcraft.printer_3d": "3D Printer",
+
+  "_comment": "Creative Tabs",
+  "itemGroup.printcraft": "PrintCraft"
 }
