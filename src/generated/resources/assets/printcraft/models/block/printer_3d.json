@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "printcraft:block/silver_ore"
+    "all": "printcraft:block/printer_3d"
   }
 }

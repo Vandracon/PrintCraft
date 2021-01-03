@@ -12,10 +12,10 @@ import net.minecraftforge.fml.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static final RegistryObject<Block> SILVER_ORE = register("silver_ore", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
-    public static final RegistryObject<Block> SILVER_BLOCK = register("silver_block", () ->
-            new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> PRINTER_3D = register("printer_3d", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3, 10)
+                    .harvestLevel(2).sound(SoundType.STONE)));
 
     static void register() {}
 

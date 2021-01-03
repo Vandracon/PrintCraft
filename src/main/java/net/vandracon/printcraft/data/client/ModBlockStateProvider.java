@@ -13,8 +13,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(ModBlocks.SILVER_BLOCK.get());
-        simpleBlock(ModBlocks.SILVER_ORE.get());
-
+        simpleBlock(ModBlocks.PRINTER_3D.get());
     }
 }
