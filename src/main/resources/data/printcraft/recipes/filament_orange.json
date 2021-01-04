@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CDC",
+    "DSD",
+    "CDC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "D": {
+      "item": "minecraft:orange_dye"
+    },
+    "S": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "printcraft:filament_orange"
+  }
+}

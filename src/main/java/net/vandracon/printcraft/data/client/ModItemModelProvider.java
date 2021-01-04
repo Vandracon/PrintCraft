@@ -18,7 +18,22 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
-//      builder(itemGenerated, "printer_3d");
+        builder(itemGenerated, "filament_black");
+        builder(itemGenerated, "filament_blue");
+        builder(itemGenerated, "filament_brown");
+        builder(itemGenerated, "filament_cyan");
+        builder(itemGenerated, "filament_gray");
+        builder(itemGenerated, "filament_green");
+        builder(itemGenerated, "filament_light_blue");
+        builder(itemGenerated, "filament_light_gray");
+        builder(itemGenerated, "filament_lime");
+        builder(itemGenerated, "filament_magenta");
+        builder(itemGenerated, "filament_orange");
+        builder(itemGenerated, "filament_pink");
+        builder(itemGenerated, "filament_purple");
+        builder(itemGenerated, "filament_red");
+        builder(itemGenerated, "filament_white");
+        builder(itemGenerated, "filament_yellow");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name) {

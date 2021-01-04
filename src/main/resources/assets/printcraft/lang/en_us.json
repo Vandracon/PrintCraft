@@ -1,6 +1,23 @@
 {
   "block.printcraft.printer_3d": "3D Printer",
 
+  "item.printcraft.filament_black": "Black Filament",
+  "item.printcraft.filament_blue": "Blue Filament",
+  "item.printcraft.filament_brown": "Brown Filament",
+  "item.printcraft.filament_cyan": "Cyan Filament",
+  "item.printcraft.filament_gray": "Gray Filament",
+  "item.printcraft.filament_green": "Green Filament",
+  "item.printcraft.filament_light_blue": "Light Blue Filament",
+  "item.printcraft.filament_light_gray": "Light Gray Filament",
+  "item.printcraft.filament_lime": "Lime Filament",
+  "item.printcraft.filament_magenta": "Magenta Filament",
+  "item.printcraft.filament_orange": "Orange Filament",
+  "item.printcraft.filament_pink": "Pink Filament",
+  "item.printcraft.filament_purple": "Purple Filament",
+  "item.printcraft.filament_red": "Red Filament",
+  "item.printcraft.filament_white": "White Filament",
+  "item.printcraft.filament_yellow": "Yellow Filament",
+
   "_comment": "Creative Tabs",
   "itemGroup.printcraft": "PrintCraft"
 }
