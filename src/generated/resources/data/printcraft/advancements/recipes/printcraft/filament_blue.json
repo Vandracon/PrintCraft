@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "printcraft:filament_blue"
+    ]
+  },
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "printcraft:filament_blue"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

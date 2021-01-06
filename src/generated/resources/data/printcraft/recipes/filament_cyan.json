@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "printcraft",
+  "pattern": [
+    "CDC",
+    "DSD",
+    "CDC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "D": {
+      "tag": "forge:dyes/cyan"
+    },
+    "S": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "printcraft:filament_cyan"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "block.printcraft.printer_3d": "3D Printer",
+  "block.printcraft.generator": "Generator",
 
   "item.printcraft.filament_black": "Black Filament",
   "item.printcraft.filament_blue": "Blue Filament",
