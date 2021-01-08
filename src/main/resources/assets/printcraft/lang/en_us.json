@@ -1,6 +1,9 @@
 {
-  "block.printcraft.printer_3d": "3D Printer",
-  "block.printcraft.generator": "Generator",
+  "block.printcraft.printer": "3D Printer",
+
+  "message.printer_block": "Your basic 3D printer",
+
+  "screen.printcraft.printer_block": "3D Printing Screen",
 
   "item.printcraft.filament_black": "Black Filament",
   "item.printcraft.filament_blue": "Blue Filament",
