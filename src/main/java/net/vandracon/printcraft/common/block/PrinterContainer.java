@@ -81,7 +81,8 @@ public class PrinterContainer extends Container {
 
     @Override
     public boolean canInteractWith(PlayerEntity playerIn) {
-        return isWithinUsableDistance(IWorldPosCallable.of(tileEntity.getWorld(), tileEntity.getPos()), playerEntity, ModBlocks.PRINTER_BLOCK.get());
+        return isWithinUsableDistance(IWorldPosCallable.of(tileEntity.getWorld(), tileEntity.getPos()),
+                playerEntity, ModBlocks.PRINTER_BLOCK.get());
     }
 
     @Override

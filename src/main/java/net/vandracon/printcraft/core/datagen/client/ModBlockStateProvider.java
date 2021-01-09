@@ -12,6 +12,7 @@ import net.vandracon.printcraft.PrintCraft;
 import net.vandracon.printcraft.Reference;
 import net.vandracon.printcraft.core.registry.ModBlocks;
 
+import java.sql.Ref;
 import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
@@ -21,18 +22,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-//        simpleBlock(BlockRegistry.PRINTER_BLOCK.get());
+//        simpleBlock(ModBlocks.PRINTER_BLOCK.get());
         registerPrinterBlock();
         makeBlockItemFromExistingModel(ModBlocks.PRINTER_BLOCK.get());
     }
 
     private void registerPrinterBlock() {
-        ResourceLocation txt = new ResourceLocation(Reference.MOD_ID, "block/printer");
-        BlockModelBuilder model = models().cube("printer", txt, txt, new ResourceLocation(Reference.MOD_ID, "block/printer_front"), txt, txt, txt);
-        BlockModelBuilder modelPrinterPowered = models().cube("printer_powered", txt, txt, new ResourceLocation(Reference.MOD_ID, "block/printer_powered"), txt, txt, txt);
+        ModelFile.ExistingModelFile model = models().getExistingFile(new ResourceLocation(Reference.MOD_ID, "block/printer"));
+
         orientedBlock(ModBlocks.PRINTER_BLOCK.get(), state -> {
             if (state.get(BlockStateProperties.POWERED)) {
-                return modelPrinterPowered;
+                return model;
             } else {
                 return model;
             }

@@ -85,7 +85,8 @@ public class PrinterTile extends TileEntity implements ITickableTileEntity {
                 if (te != null) {
                     boolean doContinue = te.getCapability(CapabilityEnergy.ENERGY, direction).map(handler -> {
                                 if (handler.canReceive()) {
-                                    int received = handler.receiveEnergy(Math.min(capacity.get(), PrintCraftConfig.PRINTER_SEND.get()), false);
+                                    int received = handler.receiveEnergy(Math.min(capacity.get(),
+                                            PrintCraftConfig.PRINTER_SEND.get()), false);
                                     capacity.addAndGet(-received);
                                     energyStorage.consumeEnergy(received);
                                     markDirty();

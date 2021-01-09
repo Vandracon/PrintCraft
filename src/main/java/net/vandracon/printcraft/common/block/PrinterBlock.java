@@ -34,7 +34,8 @@ public class PrinterBlock extends Block {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
-                .setLightLevel(state -> state.get(BlockStateProperties.POWERED) ? 14 : 0)
+                .setLightLevel(state -> state.get(BlockStateProperties.POWERED) ? 8 : 1)
+                .notSolid()
         );
     }
 

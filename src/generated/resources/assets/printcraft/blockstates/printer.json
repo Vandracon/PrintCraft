@@ -24,26 +24,26 @@
       "y": 90
     },
     "facing=down,powered=true": {
-      "model": "printcraft:block/printer_powered",
+      "model": "printcraft:block/printer",
       "x": 90
     },
     "facing=up,powered=true": {
-      "model": "printcraft:block/printer_powered",
+      "model": "printcraft:block/printer",
       "x": -90
     },
     "facing=north,powered=true": {
-      "model": "printcraft:block/printer_powered"
+      "model": "printcraft:block/printer"
     },
     "facing=south,powered=true": {
-      "model": "printcraft:block/printer_powered",
+      "model": "printcraft:block/printer",
       "y": 180
     },
     "facing=west,powered=true": {
-      "model": "printcraft:block/printer_powered",
+      "model": "printcraft:block/printer",
       "y": 270
     },
     "facing=east,powered=true": {
-      "model": "printcraft:block/printer_powered",
+      "model": "printcraft:block/printer",
       "y": 90
     }
   }
